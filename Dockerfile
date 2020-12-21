@@ -32,7 +32,7 @@ ENV DOCKER_BUILD_HOME "/dockerbuild"
 # ====================
 # ====================
 # wordpress
-COPY wordpress_src/. $WORDPRESS_SOURCE/
+COPY wp_src/. $WORDPRESS_SOURCE/
 # supervisor
 COPY supervisord.conf /etc/
 # php
