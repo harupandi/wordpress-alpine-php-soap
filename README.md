@@ -4,7 +4,7 @@ Based on [Azure/app-service-quickstart-docker-images/wordpress-alpine-php/0.9](h
 
 ## Modified files
 
-### entrypoint.sh
+### [local_bin/entrypoint.sh](https://github.com/harupandi/wordpress-alpine-php-soap/blob/master/local_bin/entrypoint.sh)
 Added the following before calling supervisord.conf, specifically in line 211.
 
 ```
