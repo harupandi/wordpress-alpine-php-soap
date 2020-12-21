@@ -1,4 +1,4 @@
-# wordpress-alpine-php
+# wordpress-alpine-php-soap
 Based on [Azure/app-service-quickstart-docker-images/wordpress-alpine-php/0.9](https://github.com/Azure/app-service-quickstart-docker-images/tree/master/wordpress-alpine-php/0.9) modified only to include SOAP
 
 
