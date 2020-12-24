@@ -22,7 +22,7 @@ docker-php-ext-install soap
 3. Run the following command
 ```docker build -t <image:tag> -f Dockerfile .```
 
-4. After building locally, you can push to [Azure Container Registry](https://docs.microsoft.com/en-us/azure/app-service/tutorial-custom-container?pivots=container-linux#push-the-image-to-azure-container-registry) or [Dockerhub](https://docs.docker.com/docker-hub/repos/)
+4. After building locally, you can follow the steps to push to [Azure Container Registry](https://docs.microsoft.com/en-us/azure/app-service/tutorial-custom-container?pivots=container-linux#push-the-image-to-azure-container-registry) or [Dockerhub](https://docs.docker.com/docker-hub/repos/)
 
 5. Modify the App Service's image to use your newly created image:tag.
 
